@@ -1,5 +1,5 @@
 const multer = require('multer')
-const uploadDirectory = multer({dest: "../uploads/"})
+const uploadDirectory = multer({dest: "uploads"})
 const path = require('path')
 
 var routes = function (app) {
